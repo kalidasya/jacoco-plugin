@@ -87,7 +87,7 @@ THE SOFTWARE.
       <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
       <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <jacoco.version>0.7.2-SNAPSHOT</jacoco.version>
+      <jacoco.version>0.7.2.201409121644</jacoco.version>
    </properties>
 
    <repositories>
@@ -95,7 +95,7 @@ THE SOFTWARE.
          <id>repo.jenkins-ci.org</id>
          <url>http://repo.jenkins-ci.org/public/</url>
       </repository>
-      <repository>
+      <!--repository>
    	   <id>jacoco-snapshot</id>
          <name>JaCoCo Snapshot Build Repository</name>
          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -103,7 +103,7 @@ THE SOFTWARE.
          	<enabled>true</enabled>
          	<updatePolicy>always</updatePolicy>
          </snapshots>
-   	 </repository>
+   	 </repository-->
    </repositories>
 
    <pluginRepositories>
